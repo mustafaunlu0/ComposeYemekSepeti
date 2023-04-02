@@ -16,10 +16,9 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            ComposeYemekSepetiTheme {
-                // A surface container using the 'background' color from the theme
+
                 YemekSepeti()
-            }
+
         }
     }
 }
